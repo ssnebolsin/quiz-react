@@ -32,7 +32,7 @@ function App() {
           </section>
         </>
       }
-      <QuizResult results={results} currentQuestion={currentQuestion} show={currentQuestion >= Store.quiz.questions.length ? '--show' : ''} reload={reloadPage}/>
+      <QuizResult results={results} show={currentQuestion >= Store.quiz.questions.length ? '--show' : ''} reload={reloadPage}/>
     </main>
   )
 }
